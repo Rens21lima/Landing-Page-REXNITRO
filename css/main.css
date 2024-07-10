@@ -1,0 +1,205 @@
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner{
+    background-color: #2E060D;
+    overflow: clip; 
+}
+
+.hero{
+    max-width: 100%;
+    height: 49vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 96px;
+    padding-left: 2rem;
+    
+    align-items: center;
+
+}
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+.destaque{
+    font-family: Epiloque;
+    font-size: 1rem;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.-marrom{
+    color: #a45a49 ;
+}
+
+.-amarelo{
+    color: #e7a80e;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+hr{
+    border-color: #a45a49;
+}
+
+.hero-subtitulo{
+   color: #C7BAb3;
+   font-size: 20px;
+   font-weight: 400; 
+}
+
+.hero-imagens-container{
+   max-width: 50%;
+   display: flex;
+   align-self: flex-start;
+    
+}
+
+.figura-principal {
+   
+    width: 656px;
+    height: 387px;
+   
+  
+}
+
+.button-container{
+    width: 100%;
+    max-width: 1320px;
+   
+    margin-left: 5px;
+    margin-top: -5px;
+    transform: translate("0, -50%");
+}
+
+button{
+    border: none;
+    padding:16px;
+    background-color: #a45a49;
+    border-radius: 8px;
+
+}
+
+.analises{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 3rem 144px;
+    
+
+}
+
+.analises-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.analises-titulo{
+    font-family: Monstserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF2E7;
+
+
+}
+
+.analises-subtitulo{
+    color: #C7BAb3;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.analises-card-container{
+    padding: 1rem 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    gap: 32px;
+}
+
+.analises-card{
+    background-color: #440610;
+    padding: 2rem;
+    border: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    
+    
+    
+    
+}
+.analises-card-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.analises-card-cabecalho-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px  ;
+}
+
+.analise-card-titulo{
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.analises-avaliacao{
+    color: #756A67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.analises-descricao{
+    color: #C7BAb3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.analises-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.analises-autor > img{
+    border-radius: 20rem;
+    width: 39px;
+    height: 40px;
+
+}
+
+.analises-autor-nome{
+ color: #C7BAb3;
+ font-size: 1rem;
+ font-family: Inter;
+ font-weight: 600;   
+}
+

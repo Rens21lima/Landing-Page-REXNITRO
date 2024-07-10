@@ -1,0 +1,33 @@
+nav{
+    
+    padding: 24px 160px;
+    background-color:  #440610 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+.logo{
+    font-family: Teko;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #FFF2E780;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.github{
+    color: #FFF2E7;
+    font-weight: 600;
+}
